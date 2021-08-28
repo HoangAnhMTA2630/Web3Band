@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:helvetica, arial, sans-serif;
+}
+/* 
+1. Vi tri
+2. Khich thuoc
+3. Mau sac
+4. Khieu dang ( kieu chu, hinh tron,....)
+*/
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+#nav{
+   display:inline-block;
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav > li{
+    display: inline-block;
+}
+#nav li{
+    position:relative;
+ 
+
+}
+#nav>li>a{
+    color: #fff;
+}
+#nav li a{
+    width: 100%;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav > li:hover >a{
+    background-color:#ccc;
+    color: #000;
+}
+
+
+#nav .subnav{
+    position:absolute;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.3)
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav a{
+    color:#000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+#nav .subnav li:hover a{
+    background-color:#ccc;
+    color: #000;
+}
+
+#slider{
+    background-color: #abc;
+    min-height: 300px;
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
